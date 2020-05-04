@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.rcyc</groupId>
-    <artifactId>bonvoy-marriot-updation</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>BonvoyMarriotUpdation</name>
+    <artifactId>rcyc-resco-bonvoy-ms</artifactId>
+    <version>0.0.1</version>
+    <name>rcyc-resco-bonvoy-ms</name>
     <description>Project for retreiving resco data and updating bonvoy</description>
 
     <properties>

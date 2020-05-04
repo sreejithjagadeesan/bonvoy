@@ -13,9 +13,9 @@ public class EnvironmentConstants {
 //    public static final String ENCRYPTION_KEY = System.getenv("RCYC_KEY_VALUE");
 
 
-    public static final String DB_URL = "jdbc:mysql://localhost:3306/bonvoy?createDatabaseIfNotExist=true&characterEncoding=UTF-8";//CryptoUtil.decrypt(System.getenv("DB_URL"));;
-    public static final String DB_USERNAME = "root";//CryptoUtil.decrypt(System.getenv("DB_USERNAME"));
-    public static final String DB_PASSWORD = "root";//CryptoUtil.decrypt(System.getenv("DB_PASSWORD"));
+    public static final String DB_URL = CryptoUtil.decrypt(System.getenv("DB_URL"));;
+    public static final String DB_USERNAME = CryptoUtil.decrypt(System.getenv("DB_USERNAME"));
+    public static final String DB_PASSWORD = CryptoUtil.decrypt(System.getenv("DB_PASSWORD"));
 
 
     // Resco constants
